@@ -1,6 +1,6 @@
 
 def reverse_each_word(sentence)
-  sentence.split(' ')
+  sentenceArray = sentence.split(' ')
   sentence.each { |e|
     e.reverse
   }
