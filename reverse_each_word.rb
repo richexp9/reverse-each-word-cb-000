@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
   sentenceArray.each { |e|
     list= "#{list}#{e.reverse} "
   }
-  list
+  list=list.slice(0, list.size-1)
   #sentence.reverse
 end
